@@ -25,8 +25,14 @@ navigate("/about");
         <li className="nav-item">
           <a className="nav-link" href="javascript:void(0)" onClick={handleAboutClick}>About</a>
         </li>
+         <li className="nav-item">
+          <a className="nav-link" href="javascript:void(0)" onClick={()=>navigate("/gallery")}>Gallery</a>
+        </li>
         <li className="nav-item">
           <a className="nav-link" href="javascript:void(0)" onClick={()=>navigate("/properties")}>Properties</a>
+        </li> 
+          <li className="nav-item">
+          <a className="nav-link" href="javascript:void(0)" onClick={()=>navigate("/service")}>Service</a>
         </li> 
         <li className="nav-item">
           <a className="nav-link" href="javascript:void(0)" onClick={()=>navigate("/contact")}>Contact</a>

@@ -1,8 +1,12 @@
+import Common from "./Common";
+import aboutUs from "../public/images.jpg"
+
+
 const About=()=>{
+
     return(
-        <div>
-            <h1>About Us</h1>
-        </div>
+        <Common title="About" img={aboutUs} visited="/gallery" />
+
     )
 }
 
